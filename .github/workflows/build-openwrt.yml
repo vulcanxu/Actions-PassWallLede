@@ -7,7 +7,7 @@
 
 #=================================================
 
-name: Build OpenWrt-N1
+name: Build OpenWrt-PassWall
 
 on:
   release:
@@ -23,8 +23,8 @@ on:
     types: [started]
 
 env:
-  # REPO_URL: https://github.com/Lienol/lean-lede
-  REPO_URL:  https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/Lienol/lean-lede
+  # REPO_URL:  https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   CONFIG_FILE: .config
   DIY_SH: diy.sh
